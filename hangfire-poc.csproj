@@ -7,4 +7,9 @@
     <RootNamespace>hangfire_poc</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Hangfire.AspNetCore" Version="1.7.30" />
+    <PackageReference Include="Hangfire.SqlServer" Version="1.7.30" />
+  </ItemGroup>
+
 </Project>
